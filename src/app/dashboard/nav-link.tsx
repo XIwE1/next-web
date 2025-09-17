@@ -16,6 +16,12 @@ export default function NavLink() {
       >
         Customers
       </Link>
+      <div onClick={() => push("/dashboard/list")} className="cursor-pointer">
+        navigate to list
+      </div>
+      <div onClick={() => push("/dashboard/info")} className="cursor-pointer">
+        navigate to info
+      </div>
       <div onClick={() => push("/dashboard")} className="cursor-pointer">
         back to dashboard page
       </div>
