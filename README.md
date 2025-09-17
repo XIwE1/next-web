@@ -1,3 +1,27 @@
+目录结构：
+* public目录 静态资源目录
+* src 源文件夹
+    * app 页面组件
+    * components 共用组件库
+        * ui UI组件库
+        * layout 布局组件
+        * features 功能组件
+    * hooks 全局hooks
+    * lib 共用库
+    * static 静态变量
+    * store 状态管理
+    * typing 全局TypeScript管理
+
+
+* env 基础环境变量
+* env.development 开发环境变量
+* env.development.local 本地开发环境变量
+* env.production 发布版本环境变量
+* .gitignore git忽略文件
+* Dockerfile docker 构建配置
+* next.config nextjs 配置
+* tailwind.config tailwindcss 全局设置
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

@@ -7,7 +7,7 @@ export function middleware(request: NextRequest) {
 
   if (request.nextUrl.pathname === "/dashboard") {
     // 重定向到 /dashboard/customers 页面
-    return NextResponse.redirect(new URL("/dashboard/customers", request.url));
+    // return NextResponse.redirect(new URL("/dashboard/customers", request.url));
   }
 }
 
